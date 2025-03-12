@@ -1,0 +1,66 @@
+/* SecondComp.css */
+
+/* Set the entire page background to black */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the counter container */
+.container {
+    text-align: center;
+    background: #1e1e1e; /* Dark gray background for modern look */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* White shadow for glow effect */
+    color: white; /* White text */
+}
+
+/* Counter number styling */
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Increment button with neon green effect */
+.increment {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(76, 175, 80, 0.8);
+}
+
+.increment:hover {
+    background-color: #45a049;
+    box-shadow: 0px 0px 15px rgba(76, 175, 80, 1);
+}
+
+/* Decrement button with neon red effect */
+.decrement {
+    background-color: #f44336;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(244, 67, 54, 0.8);
+}
+
+.decrement:hover {
+    background-color: #d32f2f;
+    box-shadow: 0px 0px 15px rgba(244, 67, 54, 1);
+}
